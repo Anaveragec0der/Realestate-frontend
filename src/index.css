@@ -1,0 +1,26 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.active{
+    color:white;
+    background-color: #2196f3;
+}
+.pointer{
+    cursor:pointer;
+}
+.hoverable:hover{
+    transform:scale(1.01);
+    box-shadow: 0.4rem 0.4rem 1rem rgba(0,0,0,0.15);
+}
+.image{
+    z-index: -5;
+}
+.hyperlink{
+        color: #111;
+}
+.hyperlink:hover{
+        color:black;  
+        cursor:pointer;  
+}
+
+.squared{
+    border-radius: 0px;
+}
